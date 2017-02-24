@@ -1,0 +1,129 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 15px;
+    color: #619ce6;
+}
+
+h3{
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #619ce6;
+}
+
+body {
+    background: #fff;
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;   
+    height: 100%; 
+    position: absolute;
+}
+
+header {
+    margin: auto;    
+    background: linear-gradient(to top, #fefcea 00%, rgba(20, 94, 255, 0.69) 100% );
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1 {
+    margin: 15px;
+    margin-left: 100px;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-shadow: 2px 0px 6px #efeeea, 3px 3px 1em #f5f5f5;
+    float: left;
+    color: #ffa304;
+    cursor: pointer;
+}
+
+header h1>span {
+    color: #619ce6;
+}
+
+nav {
+   float: right;
+    margin: 25px 20px 0 0;
+}
+
+main{
+    margin: auto;
+    overflow: auto;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 100px;
+}
+
+main ul {
+    padding-left: 2em;
+}
+
+.content > div{
+    float: left;
+}
+
+.content > img {
+    float: right;
+    margin-right: 10%;
+}
+
+footer{
+    background-color: rgb(85, 107, 140);
+    margin: auto;
+    overflow: auto;
+    color: #fff;
+    font-size: 0.8em;  
+    padding: 10px;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact{
+    float: left;
+} 
+
+.sitemap{
+    float: right;
+}
+
+.sitemap a {
+    color :#fff;
+}
+
+.faq{
+    margin-top: 30px;
+    border: 1px solid #FF9800;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.quest{
+    font-size: 1.5em;
+    font-weight: 500;
+    background: #FFEB3B;
+    padding: 5px;
+    border-bottom: 1px solid #FF9800;
+    border-radius: 4px;
+    color: #596ee2;
+}
+
+.answer {
+    padding: 7px;
+    font-size: 1.2em;
+}

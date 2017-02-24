@@ -2,27 +2,58 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Познай себя</title>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Менеджер задач</title>
 </head>
 
 <body>
     <header>
-        <h1>PsyTech</h1>
+        <a href="index.html">
+            <h1><span>Log</span>Day</h1>
+        </a>
         <nav>
-            <a href="#">Регистрация</a> |
-            <a href="#">ВиО</a> |
+            <a href="#">Войти</a> |
+            <a href="faq.html">ВиО</a> |
             <a href="#">Техподдержка</a>
         </nav>
 
     </header>
     <main>
+        <h2>Вопросы и Ответы</h2>
+        <section class="faq">
+            <section class="quest">
+                Зачем составлять списки задач?
+            </section>
+            <section class="answer">
+                Списки задач позволяют вам ничего не забыть и эффективнее распределять свое время.
+            </section>
+        </section>
+
+        <section class="faq">
+            <section class="quest">
+                Сколько стоит LogDay?
+            </section>
+            <section class="answer">
+                LogDay абсолютно бесплатный продукт.
+            </section>
+        </section>
+
+        <section class="faq">
+            <section class="quest">
+                Я не хочу чтобы мой список дел был всем доступен.
+            </section>
+            <section class="answer">
+                Ваш список дел доступен только Вам. При регистрации вы указываете имя пользователя и пароль. Никто не сможет просмотреть
+                ваши записи не имея вашего пароля. Поэтому не выбирайте простые пароли.
+            </section>
+        </section>
     </main>
     <footer>
         <div class="contact">
             <h5>Свяжитесь с нами</h5>
-            <p>PsyTech!</p>
+            <p>LogDay!</p>
             <p>Большая Красная 7</p>
             <p>Казань, Республика Татарстан</p>
         </div>
@@ -30,11 +61,8 @@
             <h5>Карта сайта</h5>
             <ul>
                 <li><a href="index.html">Домой</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Право</a></li>
                 <li><a href="#">Техподдержка</a></li>
-                <li><a href="#">ВиО</a></li>
-                <li><a href="#">Вакансии</a></li>
+                <li><a href="faq.html">ВиО</a></li>
             </ul>
         </div>
     </footer>
